@@ -23,9 +23,7 @@ const createStudent = (name) => {
       return phrase;
     },
   };
-  console.log(student.feedback());
   return student;
 };
 
-createStudent('Eliza');
 module.exports = createStudent;
